@@ -1534,5 +1534,13 @@ namespace ChillyRoom.UnityEditor.iOS.Xcode
             project.project.UpdateVars();
 
         }
+	    public void ClearVariantGroupEntries(string variantGroupName) {
+		PBXVariantGroupData variantGroup = VariantGroupsGetByName (variantGroupName);
+		if (variantGroup == null) 
+		{
+		    variantGroup = CreateLocalizableVariantGroup (variantGroupName);
+		}
+		variantGroup.children.Clear();
+	    }	    
     }
 } // namespace UnityEditor.iOS.Xcode

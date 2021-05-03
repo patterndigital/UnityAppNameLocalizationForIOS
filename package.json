@@ -1,8 +1,9 @@
 {
-	"name": "UnityAppNameLocalizationForIOS",
+	"name": "ru.pattergndigital.UANLFIOS",
 	"displayName":"UnityAppNameLocalizationForIOS",
 	"version": "0.1.1-preview",
 	"unity": "2020.1",
 	"description": "Enable localization in iOS plist",
-	"dependencies": {}
+	"dependencies": {
+	}
 }

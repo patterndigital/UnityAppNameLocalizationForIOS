@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEditor.Callbacks;
 using System.IO;
-using ChillyRoom.UnityEditor.iOS.Xcode;
+using Unity.uanl.UnityEditor.iOS.Xcode;
 
 public class PostProcess: MonoBehaviour
 {
@@ -17,6 +17,6 @@ public class PostProcess: MonoBehaviour
 
     private static void OnIOSBuild(BuildTarget target, string path)
     {
-            NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
+        Unity.uanl.NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
     }
 }

@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Linq;
 
-namespace ChillyRoom.UnityEditor.iOS.Xcode
+namespace Unity.uanl.UnityEditor.iOS.Xcode
 {
     internal class JsonElement
     {

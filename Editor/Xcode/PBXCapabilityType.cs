@@ -1,4 +1,4 @@
-﻿namespace ChillyRoom.UnityEditor.iOS.Xcode
+﻿namespace Unity.uanl.UnityEditor.iOS.Xcode
 {
     /// <summary>
     /// List of all the capabilities available.

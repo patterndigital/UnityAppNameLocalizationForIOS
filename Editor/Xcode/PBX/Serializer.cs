@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.IO;
 using System.Linq;
 
-namespace ChillyRoom.UnityEditor.iOS.Xcode.PBX
+namespace Unity.uanl.UnityEditor.iOS.Xcode.PBX
 {    
     class PropertyCommentChecker
     {

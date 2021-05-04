@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
-using ChillyRoom.UnityEditor.iOS.Xcode;
+using Unity.uanl.UnityEditor.iOS.Xcode;
 
 namespace Unity.uanl{
 public class NativeLocale

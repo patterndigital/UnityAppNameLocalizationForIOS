@@ -3,9 +3,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.IO;
 using System;
-using ChillyRoom.UnityEditor.iOS.Xcode.PBX;
+using Unity.uanl.UnityEditor.iOS.Xcode.PBX;
 
-namespace ChillyRoom.UnityEditor.iOS.Xcode
+namespace Unity.uanl.UnityEditor.iOS.Xcode
 {
     using PBXBuildFileSection           = KnownSectionBase<PBXBuildFileData>;
     using PBXFileReferenceSection       = KnownSectionBase<PBXFileReferenceData>;

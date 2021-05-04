@@ -1,7 +1,7 @@
 {
 	"name": "com.unity.uanl",
 	"displayName":"UnityAppNameLocalizationForIOS",
-	"version": "0.1.1-preview",
+	"version": "0.1.2",
 	"unity": "2020.1",
 	"description": "Enable localization in iOS plist",
 	"dependencies": {

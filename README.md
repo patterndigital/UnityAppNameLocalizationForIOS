@@ -6,6 +6,12 @@ This plugin uses the xcodeapi library from Unity's official repository(old) with
 
 An example is provided. To use it, just copy the folder 'Assets/NativeLocale' to your asset directory and invoke NativeLocale.AddLocalizeNativeStringsIOS in your post process script.
 
+    public static void OnPostProcessBuild(BuildTarget target, string path)
+    {
+            NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
+    }
+
+
 It might not work very well with newer xcode versions. See issues section for more information. 
 You are welcome to use this code however you like. No need to inquire about licensing.
 

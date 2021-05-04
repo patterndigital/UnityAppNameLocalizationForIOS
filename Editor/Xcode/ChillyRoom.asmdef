@@ -1,0 +1,11 @@
+{
+    "name": "ChillyRoom",
+    "references": [],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "WSA"
+    ],
+    "excludePlatforms": []
+}

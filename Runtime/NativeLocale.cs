@@ -5,6 +5,7 @@ using UnityEditor;
 using System.IO;
 using ChillyRoom.UnityEditor.iOS.Xcode;
 
+namespace Unity.uanl{
 public class NativeLocale
 {
     public static void AddLocalizedStringsIOS(string projectPath, string localizedDirectoryPath)
@@ -72,4 +73,5 @@ public class NativeLocale
             DirectoryCopy(subdir.FullName, temppath);
         }
     }
+}
 }

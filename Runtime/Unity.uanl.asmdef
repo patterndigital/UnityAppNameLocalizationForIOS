@@ -1,0 +1,11 @@
+{
+    "name": "Unity.uanl",
+    "references": [],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "WSA"
+    ],
+    "excludePlatforms": []
+}

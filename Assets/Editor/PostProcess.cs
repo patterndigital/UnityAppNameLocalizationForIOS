@@ -17,6 +17,6 @@ public class PostProcess: MonoBehaviour
 
     private static void OnIOSBuild(BuildTarget target, string path)
     {
-        NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
+            NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
     }
 }

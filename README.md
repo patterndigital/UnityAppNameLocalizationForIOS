@@ -8,7 +8,7 @@ An example is provided. To use it, just copy the folder 'Assets/NativeLocale' to
 
         public static void OnPostProcessBuild(BuildTarget target, string path)
         {
-            NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
+          NativeLocale.AddLocalizedStringsIOS(path, Path.Combine(Application.dataPath, "NativeLocale/iOS"));
         }
 
 

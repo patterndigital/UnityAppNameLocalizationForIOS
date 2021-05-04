@@ -63,7 +63,7 @@ public class NativeLocale
             if(file.FullName.EndsWith(".meta"))
                 continue;
             string temppath = Path.Combine(destDirName, file.Name);
-            file.CopyTo(temppath, false);
+            file.CopyTo(temppath, true);
         }
 
         DirectoryInfo[] dirs = dir.GetDirectories();
